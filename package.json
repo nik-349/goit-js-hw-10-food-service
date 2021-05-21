@@ -6,7 +6,9 @@
   "homepage": "https://nik-349.github.io/goit-js-hw-10-food-service",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
