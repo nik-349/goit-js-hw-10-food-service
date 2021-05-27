@@ -1,5 +1,5 @@
 import './sass/main.scss';
-import './js/main.js'
+// import './js/main.js'
 
 import cardDis from './tamplates/card.hbs';
 import menur from './js/menu.json';
